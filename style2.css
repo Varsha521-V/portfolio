@@ -1,0 +1,163 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e5990c;
+}
+
+header {
+    background-image: url("file:///C:/Users/ADMIN/OneDrive/Desktop/Pic/balanced%20diet.jpeg"); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(216, 170, 19);
+    text-align: center;
+    padding: 150px 20px;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(228, 172, 30);
+    font-weight: bold;
+}
+
+.hero {
+    margin-top: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1 {
+    font-size: 2.8em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.button {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.section {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    background-image: url('file:///C:/Users/ADMIN/OneDrive/Desktop/Pic/chem.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(230, 166, 28);
+    position: relative;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+}
+
+#home h2, #home p {
+    position: relative;
+    z-index: 2;
+}
+
+#nutrition {
+    background-image: url('file:///C:/Users/ADMIN/OneDrive/Desktop/Pic/genetic.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+#fitness {
+    background-image: url('file:///C:/Users/ADMIN/OneDrive/Desktop/Pic/BG.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+#mental-health {
+    background-image: url('file:///C:/Users/ADMIN/OneDrive/Desktop/Pic/doctor.webp'); 
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+.article {
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #dfcd26;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f38906;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    text-align: left;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ba9616;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    height: 150px;
+}

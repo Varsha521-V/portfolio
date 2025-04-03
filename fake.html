@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="fake style1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <img src="logo.jpg" width="200px" height="200px" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">MY WORKS</a></li> 
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            <h2> Hi, I'm <span> Varsha</span></h2>
+            <h1><span>A</span>spiring<span> C</span>omputer<span> E</span>ngineer</h1>
+            <h3>First year CSE student passionate about web development.
+                I love<br> building interactive and responsive websites using HTML,CSS.<br>
+                Exploring front-end frameworks and aiming <br>to become a full-stack developer.
+            </h3>
+            <a href="#">Hire Me</a>
+            <div class="container">
+                <div class="my_works">
+                    <h1><i><strong>projects</strong></i></h1>
+                    <div class="my_works">
+                        <label for="portfolioCheckbox">Portfolio Website</label>
+                        <label for="waterpumpCheckbox">Auto Water Pump Switcher Project</label>
+                        <label for="ecommerceCheckbox">E-Commerce Website</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="file:///C:/Users/ADMIN/OneDrive/Desktop/Pic/engineer.png" class="engineer">
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-instagram-fill"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+            <a href="#"><i class="ri-youtube-fill"></i></a>
+        </div>
+    </div>
+
+    <input type="checkbox" id="portfolioCheckbox" class="modal-checkbox">
+    <div id="portfolioModal" class="project-modal">
+        <div class="project-modal-content">
+            <label for="portfolioCheckbox" class="close">&times;</label>
+            <img src="file:///C:/Users/ADMIN/Downloads/portfolio.png" alt="Portfolio Website Image">
+            <p>Description of Portfolio Website...</p>
+            <a href="https://github.com/Varsha521-V/my-repo.git" target="_blank">View Project</a> 
+        </div>
+    </div>
+
+    <input type="checkbox" id="waterpumpCheckbox" class="modal-checkbox">
+    <div id="waterpumpModal" class="project-modal">
+        <div class="project-modal-content">
+            <label for="waterpumpCheckbox" class="close">&times;</label>
+            <img src="file:///C:/Users/ADMIN/OneDrive/Desktop/Pic/auto%20water%20pump.jpeg" alt="Water Pump Project Image">
+            <p>Description of Water Pump Project...</p>
+            <a href="file:///C:/Users/ADMIN/Downloads/project%20report.pdf" target="_blank">View Project</a>
+        </div>
+    </div>
+
+    <input type="checkbox" id="ecommerceCheckbox" class="modal-checkbox">
+    <div id="ecommerceModal" class="project-modal">
+        <div class="project-modal-content">
+            <label for="ecommerceCheckbox" class="close">&times;</label>
+            <img src="file:///C:/Users/ADMIN/OneDrive/Desktop/Pic/e%20commerce.jpeg" alt="E-Commerce Website Image">
+            <p>Description of E-Commerce Website...</p>
+            <a href=" https://varsha521-v.github.io/hello/" target="_blank">View Project</a>
+        </div>
+    </div>
+</body>
+</html>
