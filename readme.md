@@ -1,6 +1,6 @@
 # Welcome to my portfolio
 🌐 Varsha's Portfolio Website  
-Welcome to my personal portfolio website! This is a simple, elegant, and responsive website built using only HTML and CSS (no JavaScript), showcasing my web development skills and projects.
+Welcome to my personal portfolio website! This is a simple, elegant, and responsive website built using only HTML and CSS, showcasing my web development skills and projects.
 
 ## 🧱 Website Structure
 
@@ -41,5 +41,5 @@ Each project is displayed as a clickable button for easy navigation.
 ### 🔗 Social Media Icons
 Positioned at the bottom left.
 
-Icons for **Instagram**, **LinkedIn**, and **github** with hover effects.
+Icons for **Instagram**, **LinkedIn**, and **Github** with hover effects.
 
