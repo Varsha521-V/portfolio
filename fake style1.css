@@ -237,14 +237,14 @@ ul li a:hover{
     cursor: pointer;
 }
 
-/* Show modals when checkboxes are checked */
+
 #portfolioCheckbox:checked ~ #portfolioModal,
 #waterpumpCheckbox:checked ~ #waterpumpModal,
 #ecommerceCheckbox:checked ~ #ecommerceModal {
     display: block;
 }
 
-/* Pink button styles for project labels (previously h3) */
+
 .my_works .my_works label {
     background-color: #e98181;
     color: #0c0505;
@@ -255,19 +255,18 @@ ul li a:hover{
     text-align: center;
     min-width: 200px;
     transition: background-color 0.3s ease;
-    cursor: pointer; /* Important: Make labels clickable */
-    margin: 10px; /* Add spacing between labels */
-    display: inline-block; /* Allow margin and padding */
+    cursor: pointer;
+    margin: 10px; 
+    display: inline-block; 
 }
 
 .my_works .my_works label:hover {
     background-color: #f3606e;
 }
 
-/* Corrected layout for project list - shifted left */
 .my_works .my_works {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Align labels to the left */
-    padding-left: -30px; /* Add some left padding to shift them further */
+    justify-content: flex-start; 
+    padding-left: -30px; 
 }
