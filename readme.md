@@ -11,7 +11,6 @@ Contains the following sections:
 - HOME
 - ABOUT
 - SKILLS
-- MY WORKS
 - CONTACT
 
 ### 🖼️ Hero Section
@@ -21,6 +20,7 @@ A short self-introduction:
 First-year CSE student passionate about web development. I love building interactive and responsive websites using HTML and CSS.
 
 A **"Hire Me"** call-to-action button.
+Resume is added **Resume** call-to-action button.All details are provided in Resume
 
 Stylish image/illustration on the right.
 
