@@ -255,7 +255,7 @@ ul li a:hover{
     text-align: center;
     min-width: 200px;
     transition: background-color 0.3s ease;
-    cursor: pointer;
+    cursor: pointer; 
     margin: 10px; 
     display: inline-block; 
 }
@@ -263,6 +263,7 @@ ul li a:hover{
 .my_works .my_works label:hover {
     background-color: #f3606e;
 }
+
 
 .my_works .my_works {
     display: flex;
